@@ -90,4 +90,4 @@ WORKDIR /srv
 CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
 
 # 暴露常用端口
-EXPOSE 80 443 1080 1443
+EXPOSE 80 443 800 888
