@@ -1,8 +1,9 @@
 name: "Auto Update Docker"
 on:
   workflow_dispatch:
+  # 每周一16点执行
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "0 16 * * 1"
 env:
   TZ: Asia/Shanghai
   # Use docker.io for Docker Hub if empty
